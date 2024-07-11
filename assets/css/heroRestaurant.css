@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body,
+html {
+  background: linear-gradient(225deg, #a54343 0%, #e73535 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+}
+.textContainer {
+  z-index: 999;
+  width: 517px;
+  margin-bottom: 35px;
+}
+
+.textContainer h1 {
+  width: 517px;
+  height: 254px;
+  font-size: 140px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 165px;
+  margin-bottom: 35px;
+  line-height: 127px;
+}
+.textContainer h5 {
+  width: 420px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  padding-left: 165px;
+  margin-bottom: 35px;
+  line-height: 34px;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  padding-left: 165px;
+}
+.minitext {
+color: white;
+  padding-left: 12px;
+}
+.priceButton {
+  width: 294px;
+height: 98px;
+margin-left: 165px;
+margin-bottom: 34px;
+}
+
+.hamburger {
+  width: 1125px;
+  padding-top: 133px;
+}
+
